@@ -12,6 +12,8 @@ This project simulates EEG signals under **Rest** and **Task** conditions using 
 - Band-power integration:
   - Alpha: 8–12 Hz
   - Beta: 13–30 Hz
+ 
+
 
 ## Outputs
 
@@ -26,7 +28,20 @@ The script produces three main visualisations:
 
 3. **Band-power bar chart**  
    - Alpha power: Rest >> Task (alpha suppression)  
-   - Beta power: Task >> Rest (task-related beta enhancement)  
+   - Beta power: Task >> Rest (task-related beta enhancement)
+  
+
+
+### Time-series Example (first 2 s)
+![Time Series EEG](amp-time.png)
+
+### Power Spectrum (Rest vs Task)
+![Power Spectrum](power_spec.png)
+
+### Band Power by Condition
+![Band Power by Condition](Powerbandbycondition.png)
+
+
 
 ## Tools
 
